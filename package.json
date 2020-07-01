@@ -1,0 +1,37 @@
+{
+  "name": "hackernetic.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hackernetic/hackernetic.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackernetic/hackernetic.github.io/issues"
+  },
+  "homepage": "https://github.com/hackernetic/hackernetic.github.io#readme",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "apollo-boost": "^0.4.9",
+    "emotion-theming": "^10.0.27",
+    "graphql": "^15.1.0",
+    "navi": "^0.14.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-navi": "^0.14.4",
+    "typescript": "^3.9.5"
+  }
+}
